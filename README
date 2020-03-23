@@ -1,3 +1,15 @@
-Generates facter JSON output from various network configurations across facter versions.
+Generates facter JSON output from various network configurations across facter
+versions.
 
-Have net-tools installed. Tested on CentOS 8.
+Why? Just like Puppet, Facter is a fast moving target and it's tough to keep up
+with the changes. Also we needed some real-world examples of Facter output on
+various configurations.
+
+Have net-tools installed. Tested on CentOS 8 in a libvirt VM with two NICs
+connected to the "default" network.
+
+This is public domain.
+
+Have fun.
+
+  -- lzap
