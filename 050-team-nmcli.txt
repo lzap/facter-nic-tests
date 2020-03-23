@@ -1,0 +1,4 @@
+NAME               UUID                                  TYPE      DEVICE 
+team-team0         6184c31d-052f-489b-ae36-d9cdbb7efe14  team      team0  
+team-slave-enp1s0  860bc724-d0cf-470b-923e-51b321b24331  ethernet  enp1s0 
+team-slave-enp7s0  53ab6b22-9d75-424a-9b96-caa7224f1e10  ethernet  enp7s0 

@@ -1,0 +1,3 @@
+Generates facter JSON output from various network configurations across facter versions.
+
+Have net-tools installed. Tested on CentOS 8.

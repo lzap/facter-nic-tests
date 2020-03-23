@@ -1,0 +1,2 @@
+NAME             UUID                                  TYPE      DEVICE 
+ethernet-enp1s0  03b294b0-5f60-4af7-b0da-034062eb9af7  ethernet  enp1s0 

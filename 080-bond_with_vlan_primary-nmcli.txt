@@ -1,0 +1,5 @@
+NAME               UUID                                  TYPE      DEVICE   
+vlan-bond0.10      cf192034-09e0-4437-bb7f-09129b9fe685  vlan      bond0.10 
+bond-bond0         c8d8ef29-cf19-46d8-96f3-a63eb171e9fd  bond      bond0    
+bond-slave-enp1s0  6ed77a38-4faf-4f4a-9a25-0206dc163e48  ethernet  enp1s0   
+bond-slave-enp7s0  db68ed7b-cf54-40e1-9b99-e1a295baa9b6  ethernet  enp7s0   

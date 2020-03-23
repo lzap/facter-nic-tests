@@ -1,0 +1,4 @@
+NAME                 UUID                                  TYPE      DEVICE 
+bridge-br0           0982d958-a082-4856-ac79-75c3d83b0c00  bridge    br0    
+ethernet-enp1s0      97a8a644-f1d6-44ae-9e42-2461ba8b96eb  ethernet  enp1s0 
+bridge-slave-enp7s0  6094964a-b30e-4656-a001-80e219b8add8  ethernet  enp7s0 

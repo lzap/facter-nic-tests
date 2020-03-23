@@ -1,0 +1,132 @@
+{
+  "architecture": "x86_64",
+  "kernel": "Linux",
+  "blockdevice_vda_size": 6442450944,
+  "blockdevice_vda_vendor": "0x1af4",
+  "blockdevices": "vda",
+  "dhcp_servers": {
+    "system": "192.168.122.1",
+    "br0": "192.168.122.1"
+  },
+  "domain": "nat.lan",
+  "virtual": "kvm",
+  "is_virtual": true,
+  "hardwaremodel": "x86_64",
+  "operatingsystem": "CentOS",
+  "os": {
+    "name": "CentOS",
+    "family": "RedHat",
+    "release": {
+      "major": "8",
+      "minor": "1",
+      "full": "8.1.1911"
+    }
+  },
+  "facterversion": "2.5.7",
+  "filesystems": "ext2,ext3,ext4,xfs",
+  "fqdn": "client2.nat.lan",
+  "gid": "root",
+  "hardwareisa": "x86_64",
+  "hostname": "client2",
+  "id": "root",
+  "interfaces": "br0,enp1s0,enp7s0,lo",
+  "ipaddress_br0": "192.168.122.5",
+  "macaddress_br0": "52:54:00:aa:bb:cc",
+  "netmask_br0": "255.255.255.0",
+  "mtu_br0": 1500,
+  "macaddress_enp1s0": "52:54:00:aa:bb:cc",
+  "mtu_enp1s0": 1500,
+  "macaddress_enp7s0": "52:54:00:dd:ee:ff",
+  "mtu_enp7s0": 1500,
+  "ipaddress_lo": "127.0.0.1",
+  "netmask_lo": "255.0.0.0",
+  "mtu_lo": 65536,
+  "ipaddress": "192.168.122.5",
+  "kernelmajversion": "4.18",
+  "kernelrelease": "4.18.0-80.7.1.el8_0.x86_64",
+  "kernelversion": "4.18.0",
+  "macaddress": "52:54:00:aa:bb:cc",
+  "bios_vendor": "SeaBIOS",
+  "bios_version": "?-20190727_073836-buildvm-ppc64le-16.ppc.fedoraproject.org-3.fc31",
+  "bios_release_date": "04/01/2014",
+  "manufacturer": "QEMU",
+  "productname": "Standard PC (Q35 + ICH9, 2009)",
+  "serialnumber": "Not Specified",
+  "uuid": "e8233708-7626-4072-b25a-0b77bdce18f6",
+  "type": "Other",
+  "memorysize": "1.59 GB",
+  "memoryfree": "1.18 GB",
+  "swapsize": "615.00 MB",
+  "swapfree": "605.48 MB",
+  "swapsize_mb": "615.00",
+  "swapfree_mb": "605.48",
+  "memorysize_mb": "1633.27",
+  "memoryfree_mb": "1205.01",
+  "netmask": "255.255.255.0",
+  "network_br0": "192.168.122.0",
+  "network_lo": "127.0.0.0",
+  "operatingsystemmajrelease": "8",
+  "operatingsystemrelease": "8.1.1911",
+  "osfamily": "RedHat",
+  "partitions": {
+    "vda4": {
+      "uuid": "158c0d72-c15f-4baf-996a-914bd13cf8b7",
+      "size": "9220096",
+      "mount": "/",
+      "filesystem": "xfs"
+    },
+    "vda2": {
+      "uuid": "3cba0629-455c-4137-8879-41ac32dc3ca8",
+      "size": "2097152",
+      "mount": "/boot",
+      "filesystem": "ext4"
+    },
+    "vda3": {
+      "uuid": "c673d017-4668-44b2-88d1-46927f1d0414",
+      "size": "1259520",
+      "filesystem": "swap"
+    },
+    "vda1": {
+      "size": "2048"
+    }
+  },
+  "path": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin",
+  "physicalprocessorcount": 1,
+  "processors": {
+    "models": [
+      "AMD EPYC Processor (with IBPB)"
+    ],
+    "count": 1,
+    "physicalcount": 1
+  },
+  "processor0": "AMD EPYC Processor (with IBPB)",
+  "processorcount": 1,
+  "ps": "ps -ef",
+  "rubyplatform": "x86_64-linux",
+  "rubysitedir": "/usr/local/share/ruby/site_ruby",
+  "rubyversion": "2.5.5",
+  "selinux": true,
+  "selinux_enforced": true,
+  "selinux_policyversion": "31",
+  "selinux_current_mode": "enforcing",
+  "selinux_config_mode": "enforcing",
+  "selinux_config_policy": "targeted",
+  "sshrsakey": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDLZG+t7mp2oUdSbCV22Ag7jBobpeQTJ/fwL4aWrB5LGE75dbEE89+6Ek4FkIyWmMy9EPbrKcqjRAuq1Lkqb9lkQ9hHyn9lNxwdlEc7/T5r3rrjkGGV6fKlUyDmIADjqUr49hIqHOVqapn3frnHfdO5WrqD1J7945yy87ZUR9Z3TU8+/1VQzD78FTMkRsfqobZ3zBeHPBWutDEfb+c/hlNoBnfT532CaM50ixEO77dwMZQXzyfPthZONYWcAZ2/x0dvTUiYTQlIsi32fjoOMA3BQyEyZfdzzJJFKE44dvEPn8ah1hcsMjjQQY5HQ29ZfpfnXaUq+edcotr4uKjg5Rlr",
+  "sshfp_rsa": "SSHFP 1 1 275a857011c7a7e08646513b51e52866075a7deb\nSSHFP 1 2 dd95bd8a046d6dbb2338afabbd21fc35a74d6ab21eb6c2da052127ad9969f328",
+  "sshecdsakey": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPHBLABv5wMEvsxoEW18tAOcTT36zcSTgP8h1jn8ZMjyflJPogzeN3XrIhqOXL+s2STw2CSNImgGWhOx2wJcVzM=",
+  "sshfp_ecdsa": "SSHFP 3 1 4586d6645b9d6a2bdd17316e0d4f1e862c88b86e\nSSHFP 3 2 275223be7d6c2a93c41cc0611e1a90cb06ac8f5dcd05fe6b876a9fd251f66a44",
+  "sshed25519key": "AAAAC3NzaC1lZDI1NTE5AAAAIG4h3ycJP0FMctOlcgSNggotYhJTwkTTqMYAq1ocVFhV",
+  "sshfp_ed25519": "SSHFP 4 1 3e33bfd0f46e4e367f1f22609446a49436bfdd7c\nSSHFP 4 2 6af64b15ee200c09b5814e7d98e25e64a7ad9a290cb0e61674fc36ce78ac24bd",
+  "system_uptime": {
+    "seconds": 20182,
+    "hours": 5,
+    "days": 0,
+    "uptime": "5:36 hours"
+  },
+  "timezone": "EDT",
+  "uniqueid": "a8c0057a",
+  "uptime": "5:36 hours",
+  "uptime_days": 0,
+  "uptime_hours": 5,
+  "uptime_seconds": 20182
+}

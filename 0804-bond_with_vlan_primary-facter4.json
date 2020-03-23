@@ -1,0 +1,350 @@
+{
+  "disks": {
+    "vda": {
+      "size": 6442450944,
+      "vendor": "0x1af4"
+    }
+  },
+  "dmi": {
+    "bios": {
+      "release_date": "04/01/2014",
+      "vendor": "SeaBIOS",
+      "version": "?-20190727_073836-buildvm-ppc64le-16.ppc.fedoraproject.org-3.fc31"
+    },
+    "chassis": {
+      "asset_tag": "",
+      "type": "Other"
+    },
+    "manufacturer": "QEMU",
+    "product": {
+      "name": "Standard PC (Q35 + ICH9, 2009)",
+      "serial_number": "",
+      "uuid": "e8233708-7626-4072-b25a-0b77bdce18f6"
+    }
+  },
+  "facterversion": "4.0.9.pre",
+  "filesystems": "ext2,ext3,ext4,xfs",
+  "fips_enabled": false,
+  "kernel": "Linux",
+  "kernelmajversion": "4.18",
+  "kernelrelease": "4.18.0-80.7.1.el8_0.x86_64",
+  "kernelversion": "4.18.0",
+  "load_averages": {
+    "15m": 0.25,
+    "1m": 1.29,
+    "5m": 0.57
+  },
+  "memory": {
+    "swap": {
+      "available": "605.48 MiB",
+      "available_bytes": 634896384,
+      "capacity": "1.55%",
+      "total": "615.00 MiB",
+      "total_bytes": 644870144,
+      "used": "9.51 MiB",
+      "used_bytes": 9973760
+    },
+    "system": {
+      "available": "114.34 MiB",
+      "available_bytes": 119894016,
+      "capacity": "93.00%",
+      "total": "1.59 GiB",
+      "total_bytes": 1712603136,
+      "used": "1.48 GiB",
+      "used_bytes": 1592709120
+    }
+  },
+  "mountpoints": {
+    "/": {
+      "available": "2.17 GiB",
+      "available_bytes": 2331373568,
+      "capacity": "50.50%",
+      "device": "/dev/vda4",
+      "filesystem": "xfs",
+      "options": [
+        "rw",
+        "seclabel",
+        "relatime",
+        "attr2",
+        "inode64",
+        "noquota"
+      ],
+      "size": "4.39 GiB",
+      "size_bytes": 4710203392,
+      "used": "2.22 GiB",
+      "used_bytes": 2378829824
+    },
+    "/boot": {
+      "available": "684.46 MiB",
+      "available_bytes": 717705216,
+      "capacity": "24.68%",
+      "device": "/dev/vda2",
+      "filesystem": "ext4",
+      "options": [
+        "rw",
+        "seclabel",
+        "relatime"
+      ],
+      "size": "975.90 MiB",
+      "size_bytes": 1023303680,
+      "used": "224.24 MiB",
+      "used_bytes": 235134976
+    },
+    "/dev": {
+      "available": "802.77 MiB",
+      "available_bytes": 841768960,
+      "capacity": "0%",
+      "device": "devtmpfs",
+      "filesystem": "devtmpfs",
+      "options": [
+        "rw",
+        "seclabel",
+        "nosuid",
+        "size=822040k",
+        "nr_inodes=205510",
+        "mode=755"
+      ],
+      "size": "802.77 MiB",
+      "size_bytes": 841768960,
+      "used": "0 bytes",
+      "used_bytes": 0
+    },
+    "/dev/hugepages": {
+      "available": "0 bytes",
+      "available_bytes": 0,
+      "capacity": "100%",
+      "device": "hugetlbfs",
+      "filesystem": "hugetlbfs",
+      "options": [
+        "rw",
+        "seclabel",
+        "relatime",
+        "pagesize=2M"
+      ],
+      "size": "0 bytes",
+      "size_bytes": 0,
+      "used": "0 bytes",
+      "used_bytes": 0
+    },
+    "/dev/mqueue": {
+      "available": "0 bytes",
+      "available_bytes": 0,
+      "capacity": "100%",
+      "device": "mqueue",
+      "filesystem": "mqueue",
+      "options": [
+        "rw",
+        "seclabel",
+        "relatime"
+      ],
+      "size": "0 bytes",
+      "size_bytes": 0,
+      "used": "0 bytes",
+      "used_bytes": 0
+    },
+    "/dev/pts": {
+      "available": "0 bytes",
+      "available_bytes": 0,
+      "capacity": "100%",
+      "device": "devpts",
+      "filesystem": "devpts",
+      "options": [
+        "rw",
+        "seclabel",
+        "nosuid",
+        "noexec",
+        "relatime",
+        "gid=5",
+        "mode=620",
+        "ptmxmode=000"
+      ],
+      "size": "0 bytes",
+      "size_bytes": 0,
+      "used": "0 bytes",
+      "used_bytes": 0
+    },
+    "/dev/shm": {
+      "available": "816.63 MiB",
+      "available_bytes": 856301568,
+      "capacity": "0%",
+      "device": "tmpfs",
+      "filesystem": "tmpfs",
+      "options": [
+        "rw",
+        "seclabel",
+        "nosuid",
+        "nodev"
+      ],
+      "size": "816.63 MiB",
+      "size_bytes": 856301568,
+      "used": "0 bytes",
+      "used_bytes": 0
+    },
+    "/run": {
+      "available": "781.84 MiB",
+      "available_bytes": 819814400,
+      "capacity": "4.26%",
+      "device": "tmpfs",
+      "filesystem": "tmpfs",
+      "options": [
+        "rw",
+        "seclabel",
+        "nosuid",
+        "nodev",
+        "mode=755"
+      ],
+      "size": "816.63 MiB",
+      "size_bytes": 856301568,
+      "used": "34.80 MiB",
+      "used_bytes": 36487168
+    },
+    "/run/user/0": {
+      "available": "163.32 MiB",
+      "available_bytes": 171257856,
+      "capacity": "0%",
+      "device": "tmpfs",
+      "filesystem": "tmpfs",
+      "options": [
+        "rw",
+        "seclabel",
+        "nosuid",
+        "nodev",
+        "relatime",
+        "size=167244k",
+        "mode=700"
+      ],
+      "size": "163.32 MiB",
+      "size_bytes": 171257856,
+      "used": "0 bytes",
+      "used_bytes": 0
+    },
+    "/sys/fs/cgroup": {
+      "available": "816.63 MiB",
+      "available_bytes": 856301568,
+      "capacity": "0%",
+      "device": "tmpfs",
+      "filesystem": "tmpfs",
+      "options": [
+        "ro",
+        "seclabel",
+        "nosuid",
+        "nodev",
+        "noexec",
+        "mode=755"
+      ],
+      "size": "816.63 MiB",
+      "size_bytes": 856301568,
+      "used": "0 bytes",
+      "used_bytes": 0
+    }
+  },
+  "networking": {
+    "fqdn": "client2.",
+    "hostname": "client2",
+    "interfaces": {
+      "bond0": {
+        "bindings6": [
+          {
+            "address": "fe80::5054:ff:feaa:bbcc",
+            "netmask": "ffff:ffff:ffff:ffff::",
+            "network": "fe80::"
+          }
+        ]
+      },
+      "bond0.10": {
+        "bindings": [
+          {
+            "address": "192.168.122.254",
+            "netmask": "255.255.255.0",
+            "network": "192.168.122.0"
+          }
+        ],
+        "bindings6": [
+          {
+            "address": "fe80::7090:98b4:d328:a61b",
+            "netmask": "ffff:ffff:ffff:ffff::",
+            "network": "fe80::"
+          }
+        ]
+      },
+      "lo": {
+        "bindings": [
+          {
+            "address": "127.0.0.1",
+            "netmask": "255.0.0.0",
+            "network": "127.0.0.0"
+          }
+        ],
+        "bindings6": [
+          {
+            "address": "::1",
+            "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+            "network": "::1"
+          }
+        ]
+      }
+    },
+    "ip": "192.168.122.254",
+    "primary": "bond0.10"
+  },
+  "os": {
+    "architecture": "x86_64",
+    "family": "RedHat",
+    "hardware": "x86_64",
+    "name": "CentOS",
+    "release": {
+      "full": "8",
+      "major": "8"
+    },
+    "selinux": {
+      "enabled": true
+    }
+  },
+  "path": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin",
+  "processors": {
+    "count": 1,
+    "isa": "x86_64",
+    "models": [
+      "AMD EPYC Processor (with IBPB)"
+    ],
+    "physicalcount": 1
+  },
+  "ruby": {
+    "platform": "x86_64-linux",
+    "sitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.5.0",
+    "version": "2.5.7"
+  },
+  "ssh": {
+    "ecdsa": {
+      "fingerprints": {
+        "sha1": "SSHFP 3 1 4586d6645b9d6a2bdd17316e0d4f1e862c88b86e",
+        "sha256": "SSHFP 3 2 275223be7d6c2a93c41cc0611e1a90cb06ac8f5dcd05fe6b876a9fd251f66a44"
+      },
+      "key": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPHBLABv5wMEvsxoEW18tAOcTT36zcSTgP8h1jn8ZMjyflJPogzeN3XrIhqOXL+s2STw2CSNImgGWhOx2wJcVzM=",
+      "type": "ecdsa-sha2-nistp256"
+    },
+    "ed25519": {
+      "fingerprints": {
+        "sha1": "SSHFP 4 1 3e33bfd0f46e4e367f1f22609446a49436bfdd7c",
+        "sha256": "SSHFP 4 2 6af64b15ee200c09b5814e7d98e25e64a7ad9a290cb0e61674fc36ce78ac24bd"
+      },
+      "key": "AAAAC3NzaC1lZDI1NTE5AAAAIG4h3ycJP0FMctOlcgSNggotYhJTwkTTqMYAq1ocVFhV",
+      "type": "ssh-ed25519"
+    },
+    "rsa": {
+      "fingerprints": {
+        "sha1": "SSHFP 1 1 275a857011c7a7e08646513b51e52866075a7deb",
+        "sha256": "SSHFP 1 2 dd95bd8a046d6dbb2338afabbd21fc35a74d6ab21eb6c2da052127ad9969f328"
+      },
+      "key": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDLZG+t7mp2oUdSbCV22Ag7jBobpeQTJ/fwL4aWrB5LGE75dbEE89+6Ek4FkIyWmMy9EPbrKcqjRAuq1Lkqb9lkQ9hHyn9lNxwdlEc7/T5r3rrjkGGV6fKlUyDmIADjqUr49hIqHOVqapn3frnHfdO5WrqD1J7945yy87ZUR9Z3TU8+/1VQzD78FTMkRsfqobZ3zBeHPBWutDEfb+c/hlNoBnfT532CaM50ixEO77dwMZQXzyfPthZONYWcAZ2/x0dvTUiYTQlIsi32fjoOMA3BQyEyZfdzzJJFKE44dvEPn8ah1hcsMjjQQY5HQ29ZfpfnXaUq+edcotr4uKjg5Rlr",
+      "type": "ssh-rsa"
+    }
+  },
+  "system_uptime": {
+    "days": 0,
+    "hours": 5,
+    "seconds": 20225,
+    "uptime": "5:37 hours"
+  },
+  "timezone": "EDT"
+}

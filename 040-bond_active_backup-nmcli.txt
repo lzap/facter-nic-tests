@@ -1,0 +1,4 @@
+NAME               UUID                                  TYPE      DEVICE 
+bond-bond0         a3c9f53e-7bd5-4dfa-a68a-de52bd51fd0d  bond      bond0  
+bond-slave-enp1s0  1c15d55f-60ee-4321-8085-838ec8fe0f96  ethernet  enp1s0 
+bond-slave-enp7s0  bb0f5a99-3090-4123-b619-24fda956dd49  ethernet  enp7s0 

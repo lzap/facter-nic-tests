@@ -1,0 +1,3 @@
+NAME             UUID                                  TYPE      DEVICE    
+ethernet-enp7s0  cc66ff54-4d5b-463f-b959-90628c9db950  ethernet  enp7s0    
+vlan-enp1s0.10   a3ea14cd-b6f0-48db-8347-afcd576949da  vlan      enp1s0.10 
